@@ -1,0 +1,13 @@
+.vj-destacados .card {
+	height: 100%;
+}
+
+.vj-destacados .card img {
+	height: 400px;
+	object-fit: cover;
+}
+
+.logout {
+	color: red;
+}
+
