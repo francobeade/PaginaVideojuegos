@@ -15,7 +15,7 @@ public class LogingController {
 	public String login(@RequestParam(value="error", required = false) String error, Model model, Principal principal, RedirectAttributes attribute) {
 		
 		if(error!=null) {
-			model.addAttribute(error, "ERROR DE ACCESO: Usuario y/o Contraseña son incorrectos");
+			model.addAttribute("error", "ERROR DE ACCESO: Usuario y/o Contraseña son incorrectos");
 		}
 		
 		if(principal!=null) {

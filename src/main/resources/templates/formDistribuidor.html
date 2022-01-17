@@ -37,10 +37,7 @@
 					<span sec:authentication="name"></span>
 					</a>
 
-				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					<a class="dropdown-item" href="#">Perfil (En construccion)</a>
-					<a class="dropdown-item" href="#">Cambiar Contraseña</a>
-					
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">			
 					<form th:action="@{/logout}" method="post">
 						<button class="dropdown-item logout" type="submit">Cerrar Sesion</button>
 					</form>
