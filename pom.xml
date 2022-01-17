@@ -15,7 +15,6 @@
 	<name>PaginaVideojuegos</name>
 	<description>Aplicacion con catalogo de videojuegos</description>
 	<properties>
-		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
