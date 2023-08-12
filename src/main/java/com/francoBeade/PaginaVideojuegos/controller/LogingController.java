@@ -10,7 +10,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 public class LogingController {
-
+                    
 	@GetMapping("/login")
 	public String login(@RequestParam(value="error", required = false) String error, Model model, Principal principal, RedirectAttributes attribute) {
 		
